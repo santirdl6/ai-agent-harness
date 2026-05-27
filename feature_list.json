@@ -1,0 +1,23 @@
+{
+  "project": "project-name",
+  "description": "Describe aqui el proyecto real que usara este arnes.",
+  "rules": {
+    "one_feature_at_a_time": true,
+    "require_verification_to_close": true,
+    "valid_status": ["pending", "in_progress", "done", "blocked"]
+  },
+  "features": [
+    {
+      "id": 1,
+      "name": "replace_with_first_feature",
+      "title": "Reemplazar por la primera feature real",
+      "description": "Describe el cambio concreto que debe implementar el agente.",
+      "acceptance": [
+        "Criterio observable 1",
+        "Criterio observable 2",
+        "Comando de verificacion documentado en docs/verification.md"
+      ],
+      "status": "pending"
+    }
+  ]
+}
